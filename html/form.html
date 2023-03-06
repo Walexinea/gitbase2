@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form in HTML</title>
+  </head>
+  <body>
+    <form action="https://www.google.com">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="username">Username:</label><br />
+        <input
+          type="text"
+          name="q"
+          id="username"
+          placeholder="Username"
+          required
+          pattern="^\w{3,15}$"
+          maxlength="6"
+        /><br /><br />
+        <label for="twitter">Twitter Handle:</label><br />
+        <input
+          value="rastaxarm"
+          type="text"
+          placeholder="Twitter Handle"
+          id="twitter"
+          name="twitter"
+        /><br />
+        <input type="password" placeholder="Password" required />
+        <input type="date" name="" id="" /> <input type="time" name="" id="" />
+        <input type="datetime-local" name="" id="" />
+        <input type="color" name="" id="" />
+        <input type="email" name="" id="" placeholder="Email" />
+        <input type="submit" value="Register" />
+        <button>Register2</button>
+      </fieldset>
+      <fieldset>
+        <legend>Radio INput</legend>
+        <label for="male">Male</label
+        ><input type="radio" name="sex" id="male" value="Male" /> Female<input
+          type="radio"
+          name="sex"
+          id=""
+          value="Female"
+        />
+        <label>
+          Others <input type="radio" name="sex" id="" value="Others" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Checkbox</legend>
+        <label for="">
+          Green <input type="checkbox" name="colors" value="Green" id="" />
+        </label>
+        <label for="">
+          Blue <input type="checkbox" name="colors" value="Blue" id="" />
+        </label>
+        <label for="">
+          Orange <input type="checkbox" name="colors" value="Orange" id="" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <select name="colorx" id="">
+          <option value="green">Green</option>
+          <option value="blue">Blue</option>
+          <option value="red">Red</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <textarea name="" id="" cols="70" rows="3"></textarea>
+      </fieldset>
+    </form>
+  </body>
+</html>

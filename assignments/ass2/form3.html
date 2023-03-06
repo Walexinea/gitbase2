@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form3</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>Login</legend>
+        <label for="Username*">Username*</label><br />
+        <input type="text" name="username" /><br />
+        <label for="Password">Password*</label><br />
+        <input type="text" name="password" />
+      </fieldset>
+      <fieldset>
+        <legend>Gender*</legend>
+        <input type="radio" name="sex" id="Male" value="Male" />
+        <label for="Male">Male</label>
+        <input type="radio" name="sex" id="Female" value="Female" />
+        <label for="Female">Female*</label><br />
+      </fieldset>
+      <fieldset>
+        <legend>Programming Skill</legend>
+        <input
+          type="checkbox"
+          name="Programming Skill"
+          id="JavaProgrammingTech"
+          value="Java"
+        />
+        <label for="java">Java</label>
+        <input type="checkbox" name="Programming Skill" id="C++" value="C++" />
+        <label for="C++">C++</label>
+        <input type="checkbox" name="Programming Skill" id="C#" value="C#" />
+        <label for="C#">C#</label>
+      </fieldset>
+      <fieldset>
+        <legend>Fruit</legend>
+        <label for=" Choose a Fruit">Choose a fruit:</label>
+        <select>
+          <option name="Banana">Banana</option>
+          <option name="Apple">Apple</option>
+        </select>
+      </fieldset>
+      <textarea
+        rows="5"
+        cols="59"
+        placeholder="Enter your comment here"
+      ></textarea>
+      <button>Submit</button>
+      <button type="reset">RESET</button>
+      <input type="reset" value="Rest Inputs" />
+    </form>
+  </body>
+</html>

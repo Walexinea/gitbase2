@@ -1,0 +1,106 @@
+/* comment */
+/*
+multiline
+comments
+here and
+there
+*/
+
+/* BASIC SELECTORS */
+/* UNIVERSAL, TYPE, ID, CLASS */
+/* 
+* {
+  border: 1px solid red;
+} 
+*/
+/* 
+h1 {
+  background-color: blue;
+}
+
+p {
+  background-color: green;
+}
+
+#wrapper {
+  background-color: orangered;
+}
+
+.wrapper {
+  background-color: orange;
+}
+.wrapper {
+  background-color: palevioletred;
+  margin-bottom: 1rem;
+  padding: 1rem;
+} */
+
+/**ATTRIBUTES SELECTOR*/
+/* [name] {
+  background-color: red;
+}
+
+[type] {
+  background-color: orange;
+}
+
+[required] {
+  background-color: red;
+} */
+
+/* [attrib="value"]{} */
+/* [type$="xt"] {
+  background-color: orangered;
+} */
+
+/**COMBINATORY SELECTORS**/
+
+/* descendant*/
+/* e1 e2 e3{
+
+} */
+/* form div {
+  background-color: orangered;
+}
+span {
+}
+
+form div span {
+  background-color: blue;
+  color: white;
+} */
+
+/* div > h3 {
+  background-color: red;
+} */
+
+/* h1,
+.hxe,
+p,
+form,
+.contact {
+  background-color: rgb(156, 97, 97);
+}
+
+[type="email"],
+[type="text"],
+h1 {
+  background-color: green;
+  color: white;
+} */
+
+/* input[type="email"] {
+  background-color: yellowgreen;
+}
+
+input.text.tel {
+  background-color: orangered;
+} */
+/* 
+section ~ p {
+  background-color: red;
+} */
+
+/* section + p {
+  background-color: blue;
+} */
